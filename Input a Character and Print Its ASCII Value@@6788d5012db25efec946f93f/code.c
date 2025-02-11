@@ -6,7 +6,7 @@ int main() {
     char ch;
     scanf("%c", &ch);
 
-    printf("ASCII value:  %d\n", ch, ch);
+    printf("ASCII value:  %d\n");
 
     return 0;
 }
