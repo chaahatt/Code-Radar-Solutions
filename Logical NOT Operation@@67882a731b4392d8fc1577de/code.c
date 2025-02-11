@@ -3,9 +3,9 @@
 int main() {
     int num1;
 
-    scanf("%d %d", &num1);
+    scanf("%d", &num1);  
 
-    if (num1 !=0) {
+    if (num1 != 0) {
         printf("True\n");
     } else {
         printf("False\n");
@@ -13,3 +13,4 @@ int main() {
 
     return 0;
 }
+
