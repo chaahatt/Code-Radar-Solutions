@@ -14,6 +14,6 @@ int main() {
         max = c;  // Update max if c is greater
     }
 
-    printf(" %d\n", max);
+    printf("%d\n", max);
     return 0;
 }
