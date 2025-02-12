@@ -9,7 +9,7 @@ int main() {
         printf("%d is greater\n", num1);
     } 
     else {
-        printf("%d is greater\n", num2);
+        printf("%d \n", num2);
     }
 
     return 0;
