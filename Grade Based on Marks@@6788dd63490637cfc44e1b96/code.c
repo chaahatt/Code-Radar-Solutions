@@ -13,9 +13,9 @@ int main(){
         printf("C");
     }
      else if(marks>=60){
-        ptintf("D");
+        printf("D");
     }
-     else if(marks<60){
-        ptintf("F");
+     else {
+        printf("F");
     }
 }
