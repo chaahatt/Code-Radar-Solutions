@@ -9,10 +9,10 @@ int main() {
 
 
     if (sp > cp) {
-        printf("Profit",);
+        printf("Profit");
     } 
     else if (sp < cp) {
-        printf("Loss",);
+        printf("Loss");
     } 
     else {
         printf("No Profit No Loss\n");
