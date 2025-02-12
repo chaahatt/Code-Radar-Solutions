@@ -1,7 +1,10 @@
-#include<stdio.h>
-int main(){
-    int a,b,c;
+#include <stdio.h>
+
+int main() {
+    int a, b, c, max;  // Declare max before using it
+
     scanf("%d %d %d", &a, &b, &c);
+
     max = a;  // Assume the first number is the largest
 
     if (b > max) {
