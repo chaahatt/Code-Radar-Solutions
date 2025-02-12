@@ -15,7 +15,7 @@ int main() {
         printf("Loss", cp - sp);
     } 
     else {
-        printf("No Profit, No Loss\n");
+        printf("No Profit No Loss\n");
     }
 
     return 0;
