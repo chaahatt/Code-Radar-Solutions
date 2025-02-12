@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c, max;  // Declare max before using it
+    int a, b, c, max;  
 
     scanf("%d %d %d", &a, &b, &c);
 
-    max = a;  // Assume the first number is the largest
+    max = a;  
 
     if (b > max) {
-        max = b;  // Update max if b is greater
+        max = b; 
     }
     if (c > max) {
-        max = c;  // Update max if c is greater
+        max = c; 
     }
 
     printf("%d\n", max);
