@@ -12,5 +12,5 @@ int main(){
     else{
         printf("'Scalene'");
     }
-    return0;
+    return 0;
 }
