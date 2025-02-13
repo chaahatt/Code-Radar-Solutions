@@ -15,10 +15,10 @@ int main() {
         printf("Average\n");
     }
     else if (a == 'F') { 
-        printf("Below Average\n");
+        printf("Fail\n");
     }
     else if (a == 'D') {
-        printf("Fail\n");
+        printf("Below Average\n");
     }
     else {
         printf("Invalid grade\n"); 
