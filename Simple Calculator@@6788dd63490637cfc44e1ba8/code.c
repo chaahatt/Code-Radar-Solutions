@@ -15,15 +15,15 @@ int main() {
             break;
         case '-': 
             result = num1 - num2;
-            printf("Result: %.2lf\n", result);
+            printf(" %d\n", result);
             break;
         case '*': 
             result = num1 * num2;
-            printf("Result: %.2lf\n", result);
+            printf("%d\n", result);
             break;
         case '/': 
             if (num2 != 0)
-                printf("Result: %.2lf\n", num1 / num2);
+                printf("%d\n", num1 / num2);
             else
                 printf("error\n"); // Handles division by zero
             break;
