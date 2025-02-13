@@ -23,11 +23,11 @@ int main() {
         case '/': 
             if (num2 != 0)
                 printf("Result: %.2lf\n", num1 / num2);
-            // else
-            //     printf("error\n"); // Handles division by zero
-            // break;
-        default:
-            printf("error\n"); // Handles invalid operators
+            else
+                printf("error\n"); // Handles division by zero
+            break;
+        // default:
+        //     printf("error\n"); // Handles invalid operators
     }
 
     return 0; // Missing return statement
