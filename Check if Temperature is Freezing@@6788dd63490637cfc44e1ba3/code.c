@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d", &a);
-    if (a<=o){
+    if (a<=0){
         printf("Freezing");
     }
     else
