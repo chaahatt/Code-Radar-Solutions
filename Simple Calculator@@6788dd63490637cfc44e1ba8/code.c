@@ -31,7 +31,7 @@ int main() {
                 printf("Error: Division by zero\n");
             break;
         default:
-            printf("Error: Invalid operator\n");
+            printf("error\n");
             break;
     }
 
