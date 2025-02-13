@@ -18,7 +18,7 @@ int main() {
         printf("28\n");  // Assuming non-leap year
     } 
     else {
-        printf("Invalid\n");  // If input is not between 1-12
+        printf("Invalid month\n");  // If input is not between 1-12
     }
 
     return 0;
