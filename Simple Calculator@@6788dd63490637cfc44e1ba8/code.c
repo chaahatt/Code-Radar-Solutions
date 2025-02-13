@@ -4,8 +4,7 @@ int main() {
     char operator;
     double num1, num2, result;
 
-    
-    scanf(" %c", &operator); 
+    scanf(" %c", &operator);  
     scanf("%lf %lf", &num1, &num2);
 
     switch (operator) {
@@ -24,13 +23,12 @@ int main() {
         case '/': 
             if (num2 != 0)
                 printf("Result: %.2lf\n", num1 / num2);
-            else
-                printf("Error\n");
-            break;
-            default:
-            printf("error\n");
-        
+            // else
+            //     printf("error\n"); // Handles division by zero
+            // break;
+        default:
+            printf("error\n"); // Handles invalid operators
     }
 
-    return 0;
+    return 0; // Missing return statement
 }
