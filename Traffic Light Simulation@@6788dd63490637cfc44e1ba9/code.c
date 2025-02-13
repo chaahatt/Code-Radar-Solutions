@@ -10,8 +10,8 @@ else if(ch == 'G'){
 else if(ch == 'Y'){
     printf("Slow Down");
 }
-else{
-    printf("Invalid Input");
-}
+// else{
+//     printf("Invalid Input");
+// }
 
 }
