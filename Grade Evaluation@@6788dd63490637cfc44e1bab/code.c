@@ -23,7 +23,7 @@ int main() {
 
     }
     else{
-        printf("Invalid Grade");;
+        printf("Invalid Grade");
     }
 
     return 0;
