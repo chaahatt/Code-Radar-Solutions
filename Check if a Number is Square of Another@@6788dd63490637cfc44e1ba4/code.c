@@ -6,6 +6,6 @@ if(a = b*b){
     printf("Yes");
 }
 else{
-    printf("Odd");
+    printf("No");
 }
 }
