@@ -4,9 +4,8 @@ int main() {
     char operator;
     double num1, num2, result;
 
-    printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &operator);  // Space before %c to ignore previous newline
-    printf("Enter two numbers: ");
+    
+    scanf(" %c", &operator); 
     scanf("%lf %lf", &num1, &num2);
 
     switch (operator) {
