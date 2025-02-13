@@ -1,35 +1,39 @@
 #include <stdio.h>
 
 int main() {
+    int num1, num2;
     char operator;
-    double num1, num2, result;
 
-     
-    scanf("%lf %lf", &num1, &num2);
-    scanf(" %c", &operator); 
+    // Taking two numbers first
+    scanf("%d %d %c", &num1, &num2, &operator);
 
+    // Switch case to perform the calculation
     switch (operator) {
         case '+': 
-            result = num1 + num2;
-            printf("Result: %.2lf\n", result);
+            printf("%d\n", num1 + num2);
             break;
         case '-': 
-            result = num1 - num2;
-            printf(" %d\n", result);
+            printf("%d\n", num1 - num2);
             break;
         case '*': 
-            result = num1 * num2;
-            printf("%d\n", result);
+            printf("%d\n", num1 * num2);
             break;
         case '/': 
             if (num2 != 0)
                 printf("%d\n", num1 / num2);
             else
-                printf("error\n"); // Handles division by zero
+                printf("Error: Division by zero\n");
             break;
-        // default:
-        //     printf("error\n"); // Handles invalid operators
+        case '%': 
+            if (num2 != 0)
+                printf("%d\n", num1 % num2);
+            else
+                printf("Error: Division by zero\n");
+            break;
+        default:
+            printf("Error: Invalid operator\n");
+            break;
     }
 
-    return 0; // Missing return statement
+    return 0;
 }
