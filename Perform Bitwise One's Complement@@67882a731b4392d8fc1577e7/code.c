@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num ;
+    int num = 5 ;
     printf("%d\n", ~num);
     return 0;
 }
