@@ -7,13 +7,14 @@ int getNthBit(int num, int n) {
 int main() {
     int num, n;
     
-  
+    printf("Enter a number: ");
     scanf("%d", &num);
     
-    printf("%d");
+    printf("Enter the bit position: ");
     scanf("%d", &n);
     
-    printf("%d", n, num, getNthBit(num, n));
+    printf("The %dth bit of %d is: %d\n", n, num, getNthBit(num, n));
 
     return 0;
 }
+
