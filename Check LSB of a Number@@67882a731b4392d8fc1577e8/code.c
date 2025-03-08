@@ -15,9 +15,9 @@ int main() {
     scanf("%d", &num);
 
     if (num & 1)
-        printf("LSB is 1 (Odd number)\n");
+        printf("Set");
     else
-        printf("LSB is 0 (Even number)\n");
+        printf("Not Set");
 
     return 0;
 }
