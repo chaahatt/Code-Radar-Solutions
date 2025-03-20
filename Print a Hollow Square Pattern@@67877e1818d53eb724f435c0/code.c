@@ -7,12 +7,12 @@ int main() {
     for (int i = 1; i <= n; i++) {  
         for (int j = 1; j <= n; j++) {  
             if (i == 1 || i == n || j == 1 || j == n) {
-                printf("* ");  // Print '*' with space for correct alignment
+                printf("* ");  
             } else {
-                printf("  ");  // Print two spaces for the hollow part
+                printf("  ");  
             }
         }
-        printf("\n");  // Move to the next line after a row is printed
+        printf("\n"); 
     }
 
     return 0;
