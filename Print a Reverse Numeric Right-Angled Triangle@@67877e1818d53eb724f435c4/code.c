@@ -5,8 +5,8 @@ int main() {
     
     scanf("%d", &rows);
 
-    for (int i = rows; i >= rows; i--) {
-        for (int j = 1; j <= i; j++) {
+    for (int i = rows; i >= 1; i--) {  // Loop from rows to 1
+        for (int j = 1; j <= i; j++) {  // Print numbers from 1 to i
             printf("%d ", j);
         }
         printf("\n");
